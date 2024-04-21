@@ -832,6 +832,12 @@ video {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.space-x-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(4rem * var(--tw-space-x-reverse));
+  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -1178,6 +1184,12 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(6rem * var(--tw-space-x-reverse));
+    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:bg-transparent {
