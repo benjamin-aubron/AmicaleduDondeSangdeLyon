@@ -7,7 +7,7 @@
 </head>
 <body>
   <!-- NAV -->
-  <nav class="fixed flex justify-between bg-red-800 w-full">
+  <nav class="fixed flex justify-between bg-red-800 w-full z-10">
     <div class="text-2xl p-4">
       <a href="" class="flex items-center">
         <img src="./assets/images/logo.png" alt="logo de l'amicale" class="size-[60px]">
@@ -23,8 +23,9 @@
 
   <!-- HERO -->
   <section class="h-screen grid grid-cols-1 lg:grid-cols-2">
-    <div class="bg-red-200 bg-no-repeat bg-cover bg-center">
-      <div class="bg-white/30 lg:bg-transparent mt-[300px] mx-8 lg:ml-[50px] py-4 px-2 lg:p-8 rounded-2xl">
+    <div class="lg:bg-red-200">
+      <img src="/docs/assets/images/hero2.jpg" alt="" class="-z-10 flex lg:hidden absolute w-full h-full">
+      <div class="backdrop-blur-sm bg-white/30 lg:bg-transparent mt-[300px] mx-8 lg:ml-[50px] py-4 px-2 lg:p-8 rounded-2xl">
         <h1 class="text-5xl xl:text-6xl font-bold text-center">
           Rejoins notre amicale et viens contribuer à une association qui a du sens 
         </h1>
@@ -34,9 +35,10 @@
         </div>
       </div>
     </div>
-    <div class="hidden lg:flex bg-red-200">
+    <div class="hidden lg:flex w-full h-full bg-[url('./assets/images/hero2.jpg')] bg-no-repeat bg-cover bg-center mx-auto"></div>
+    <!-- <div class="hidden lg:flex bg-red-200">
       <div class="size-[500px] bg-[url('./assets/images/hero2.jpg')] bg-no-repeat bg-contain bg-center mx-auto mt-56"></div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Missions -->
@@ -164,51 +166,42 @@
     <h2 class="text-4xl font-medium mb-6 text-center">Nos dernières activités</h2>
     <div class="mt-6 space-y-4">
       <div class="bg-gray-100 rounded-2xl">
-        <div class="flex flex-col mx-auto">
-          <div class="flex flex-col justify-start p-6 lg:p-10">
-            <div class="flex justify-start">
+        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 mx-auto">
+          <div class="flex flex-col justify-start lg:col-span-9 p-6 lg:p-10">
+            <div class="flex items-center justify-between">
               <span class="px-2 py-1 text-xs rounded-full bg-red-300">Collecte Mobile</span>
+              <span class="text-sm">Ven 19 Avril 2024</span>
             </div>
-            <h4 class="text-3xl font-semibold">Lorem ipsum dolor sit.</h4>
-            <p class="flex-1 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.</p>
+            <h4 class="text-3xl font-semibold">Collecte à la Salle de la Ficelle - LYON 4</h4>
+            <p class="flex-1 pt-2">Lucie, Robin et Benjamin ont assuré l'accueil de cette collecte. Un grand merci à eux. Au cours de cette collecte, il y a eu <span class="font-medium">142 présentés</span>, <span class="font-medium">123 prélevés</span> dont <span class="font-medium">12 primodonneurs</span>.</p>
           </div>
-          <div class="rounded-r-2xl bg-no-repeat bg-cover bg-center bg-[url('./assets/images/salleficelle.jpg')] h-40"></div>
-        </div>
-      </div>
-      <!-- <div class="bg-gray-100 rounded-2xl">
-        <div class="grid grid-cols-12 mx-auto">
-          <div class="flex flex-col p-6 col-span-full row-span-full lg:col-span-9 lg:p-10">
-            <div class="flex justify-start">
-              <span class="px-2 py-1 text-xs rounded-full bg-red-300">Collecte Mobile</span>
-            </div>
-            <h4 class="text-3xl font-semibold">Lorem ipsum dolor sit.</h4>
-            <p class="flex-1 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.</p>
-          </div>
-          <div class="rounded-r-2xl bg-no-repeat bg-cover bg-center bg-[url('./assets/images/salleficelle.jpg')] lg:col-span-3"></div>
-        </div>
-      </div> -->
-      <div class="bg-gray-100 rounded-2xl">
-        <div class="grid grid-cols-12 mx-auto">
-          <div class="flex flex-col p-6 col-span-full row-span-full lg:col-span-9 lg:p-10">
-            <div class="flex justify-start">
-              <span class="px-2 py-1 text-xs rounded-full bg-red-300">Collecte Mobile</span>
-            </div>
-            <h4 class="text-3xl font-semibold">Lorem ipsum dolor sit.</h4>
-            <p class="flex-1 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.</p>
-          </div>
-          <div class="rounded-r-2xl bg-no-repeat bg-cover bg-center bg-[url('./assets/images/mairie6.jpg')] col-span-full lg:col-span-3"></div>
+          <div class="rounded-tl-2xl rounded-tr-2xl lg:rounded-tl-none lg:rounded-br-2xl bg-no-repeat bg-cover bg-center bg-[url('./assets/images/salleficelle.jpg')] h-60 lg:h-full lg:col-span-3"></div>
         </div>
       </div>
       <div class="bg-gray-100 rounded-2xl">
-        <div class="grid grid-cols-12 mx-auto">
-          <div class="flex flex-col p-6 col-span-full row-span-full lg:col-span-9 lg:p-10">
-            <div class="flex justify-start">
+        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 mx-auto">
+          <div class="flex flex-col justify-start lg:col-span-9 p-6 lg:p-10">
+            <div class="flex items-center justify-between">
               <span class="px-2 py-1 text-xs rounded-full bg-red-300">Collecte Mobile</span>
+              <span class="text-sm">Jeu 4 Avril 2024</span>
             </div>
-            <h4 class="text-3xl font-semibold">Lorem ipsum dolor sit.</h4>
-            <p class="flex-1 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.</p>
+            <h4 class="text-3xl font-semibold">Collecte à la Mairie du 6ème - LYON 6</h4>
+            <p class="flex-1 pt-2">Première collecte pour Christiane qui était accompagnée de Robin et Benjamin. Merci à eux. Au cours de cette collecte, il y a eu <span class="font-medium">158 présentés</span>, <span class="font-medium">124 prélevés</span> dont <span class="font-medium">17 primodonneurs</span>.</p>
           </div>
-          <div class="rounded-r-2xl bg-no-repeat bg-cover bg-center bg-[url('./assets/images/partdieu.jpg')] col-span-full lg:col-span-3"></div>
+          <div class="rounded-tl-2xl rounded-tr-2xl lg:rounded-tl-none lg:rounded-br-2xl bg-no-repeat bg-cover bg-center bg-[url('./assets/images/mairie6.jpg')] h-60 lg:h-full lg:col-span-3"></div>
+        </div>
+      </div>
+      <div class="bg-gray-100 rounded-2xl">
+        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 mx-auto">
+          <div class="flex flex-col justify-start lg:col-span-9 p-6 lg:p-10">
+            <div class="flex items-center justify-between">
+              <span class="px-2 py-1 text-xs rounded-full bg-red-300">Collecte Évènementielle</span>
+              <span class="text-sm">Jeu 22 Mars 2024</span>
+            </div>
+            <h4 class="text-3xl font-semibold">Centre Commercial Part Dieu - LYON 3</h4>
+            <p class="flex-1 pt-2">Sandrine et Robin ont assuré le bénévolat au centre commercial de Part-Dieu. Un grand merci à eux. Au cours de cette collecte, il y a eu <span class="font-medium">142 présentés</span>, <span class="font-medium">123 prélevés</span> dont <span class="font-medium">12 primodonneurs</span>.</p>
+          </div>
+          <div class="rounded-tl-2xl rounded-tr-2xl lg:rounded-tl-none lg:rounded-br-2xl bg-no-repeat bg-cover bg-center bg-[url('./assets/images/partdieu2.png')] h-60 lg:h-full lg:col-span-3"></div>
         </div>
       </div>
     </div>
