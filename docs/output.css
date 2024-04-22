@@ -623,6 +623,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .-ml-\[10px\] {
   margin-left: -10px;
 }
@@ -984,6 +989,10 @@ video {
   background-image: url('./assets/images/salleficelle.jpg');
 }
 
+.bg-\[url\(\'\.\/assets\/images\/hero\.jpg\'\)\] {
+  background-image: url('./assets/images/hero.jpg');
+}
+
 .bg-contain {
   background-size: contain;
 }
@@ -1209,6 +1218,11 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
