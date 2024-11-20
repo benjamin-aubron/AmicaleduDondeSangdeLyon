@@ -42,14 +42,14 @@ const MissionList: CardProps[] = [
 
 function Card({ icon, title, description }: CardProps){
   return (
-    <div className="flex flex-col p-6 bg-white rounded-lg shadow-md">
-      <div className="flex h-12 w-12 bg-red-600 items-center justify-center rounded-xl text-white text-2xl">
+    <div className="flex flex-col p-6 bg-white dark:bg-[#242526] rounded-lg shadow-md">
+      <div className="flex h-12 w-12 bg-red-600 dark:bg-red-900 items-center justify-center rounded-xl text-white dark:text-slate-300 text-2xl">
       {icon}
       </div>
-      <h3 className="mt-4 text-xl font-semibold text-gray-900">
+      <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-slate-200">
         {title}
       </h3>
-      <p className="mt-2 text-gray-600">
+      <p className="mt-2 text-gray-600 dark:text-gray-400">
         {description}
       </p>
     </div>
@@ -58,9 +58,9 @@ function Card({ icon, title, description }: CardProps){
 
 export default function Missions(): JSX.Element {
   return (
-    <section className='bg-red-100 py-20'>
+    <section className='bg-red-100 dark:bg-[#1b1b1d] py-20'>
       <div className="container">
-        <h2 className='text-4xl font-bold'> Nos Missions</h2>
+        <h2 className='text-4xl font-bold text-slate-900 dark:text-slate-300'> Nos Missions</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">  
           {MissionList.map((props, idx) => (
             <Card key={idx} {...props} />
