@@ -1,41 +1,13 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Ce site est le site de l'Amicale Don du Sang de Lyon.
+Il contient :
+- Une page d'accueil présentant l'amicale, ses missions et son activité
+- Une page de documentation expliquant tout ce qu'il y a à savoir sur le fonctionnement de l'assiociation
+- Une page de blog pour partager des informations sur l'amicale
+- Une page avec les outils de l'assiociation (documents officiels, formulaires, comptabilité, etc.)
 
-### Installation
 
-```
-$ yarn
-```
+### Construction du site
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Ce site est construit avec [Docusaurus](https://docusaurus.io/), un générateur de site statique moderne.
