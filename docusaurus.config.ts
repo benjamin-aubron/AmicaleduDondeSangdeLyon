@@ -6,8 +6,8 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: "Amicale Don du Sang de Lyon",
+  // tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'Amicale-du-Don-du-Sang-de-Lyon', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,8 +28,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr'],
   },
 
   presets: [
@@ -38,10 +38,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -49,11 +45,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -66,27 +57,21 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.png',
     navbar: {
       title: 'Amicale Don du Sang de Lyon',
       logo: {
         alt: 'Amicale Don du Sang de Lyon Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
           position: 'right',
+          label: 'Documentation',
         },
+        {to: '/blog', label: "Blog de l'asso", position: 'right'}, 
       ],
     },
     footer: {
@@ -96,43 +81,32 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              html: `
+                <a href="https://github.com/youraccount" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;">
+                  <img src="/img/logo.png" alt="GithhHub" style="width:24px;height:24px;" />
+                  <span style="color:white; margin-left:8px;">Accueil</span>
+                </a>
+              `,
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Nous contacter',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              html: `
+              <a href="https://twitter.com/youraccount" target="_blank" rel="noopener noreferrer">
+                <img src="/img/logo.png" alt="Twitter" style="width:24px;height:24px;margin-right:8px;" />
+              </a>
+              <a href="https://github.com/youraccount" target="_blank" rel="noopener noreferrer">
+                <img src="/img/logo.png" alt="GitHub" style="width:24px;height:24px;" />
+              </a>
+              `,
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Amicale Don du Sang de Lyon. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
