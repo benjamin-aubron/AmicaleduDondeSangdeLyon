@@ -1,7 +1,7 @@
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageMissions from '@site/src/components/HomepageMissions';
+import Missions from '@site/src/components/Missions';
 
 
 function HomepageHeader() {
@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
       description="Le site de l'Amicale Don du Sang de Lyon">
       <HomepageHeader />
       <main>
-        <HomepageMissions />
+        <Missions />
       </main>
     </Layout>
   );
