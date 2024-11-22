@@ -1,11 +1,13 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Missions from '@site/src/components/Missions';
+import Collectes from '../components/Collectes';
+import Association from '../components/Association';
 
 
 function HomepageHeader() {
   return (
-    <header className="flex flex-col bg-red-700 dark:bg-red-900 justify-center h-80 items-center">
+    <header className="flex flex-col bg-red-700 dark:bg-red-900 justify-center h-[380px] items-center">
       <p className="text-5xl font-medium text-white">Amicale du Don du Sang de Lyon</p>
       <p className='text-gray-50 text-xl'>Rejoingnez notre amicale et venez contribuer à une cause pleine de sens</p>
       <div className='flex items-center'>
@@ -25,6 +27,8 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <Missions />
+        <Collectes />
+        <Association />
       </main>
     </Layout>
   );
