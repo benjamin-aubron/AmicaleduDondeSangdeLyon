@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import Missions from '@site/src/components/Missions';
 import Collectes from '../components/Collectes';
 import Association from '../components/Association';
+import Partners from '../components/Partners';
 
 
 function HomepageHeader() {
@@ -29,6 +30,7 @@ export default function Home(): JSX.Element {
         <Missions />
         <Collectes />
         <Association />
+        <Partners />
       </main>
     </Layout>
   );

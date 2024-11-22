@@ -1,4 +1,6 @@
 import { FaRegCalendarAlt, FaUsers } from "react-icons/fa";
+import { MdOpenInNew } from "react-icons/md";
+import Link from "@docusaurus/Link";
 
 
 type AssoProps = {
@@ -28,7 +30,7 @@ const AssoEnBrefList : AssoProps[] = [
 function AssoEnBref({icon, mesure, description}: AssoProps) {
   return (
     <div className="flex items-center p-6 bg-white rounded-lg shadow-md">
-      <div className="text-red-700 text-3xl w-16 h-16 bg-red-200 rounded-xl flex items-center justify-center">
+      <div className="text-red-700 text-3xl w-14 h-14 bg-red-200 rounded-xl flex items-center justify-center">
         {icon}
       </div>
       <div className="ml-4">
@@ -47,10 +49,13 @@ export default function Association() {
   return (
     <div className="py-20 bg-red-100">
       <div className="container">
-        <h2 className='text-4xl font-bold text-slate-900 dark:text-slate-300 pb-6'>
-          L'association en bref
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+        <div className="flex flex-col md:flex-row items-center ">
+          <h2 className='text-4xl font-bold text-slate-900 dark:text-slate-300'>
+            L'association en bref
+          </h2>
+          <Link href="/blog" className="text-slate-800 hover:text-red-800 ml-3 pb-1">(Nos dernières actualités <div className="inline top-[2.5px] relative"><MdOpenInNew /></div>)</Link>
+        </div>
+        <div className="pt-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {AssoEnBrefList.map((props, idx) => (
             <AssoEnBref key={idx} {...props} />
           ))}
