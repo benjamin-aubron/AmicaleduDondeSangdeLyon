@@ -7,19 +7,19 @@ type CollecteProps = {
 
 const CollecteList: CollecteProps[] = [
   {
-    date: '19 Avril',
+    date: 'Vendredi 19 Avril',
     type_collecte: 'Collecte Mobile',
     lieu: 'Lyon 4 - Salle de la Ficelle - 65 boulevard des canuts',
     heure: '15h - 19h',
   },
   {
-    date: '30 Avril',
+    date: 'Mardi 30 Avril',
     type_collecte: 'Collecte Evènementielle',
     lieu: 'Lyon 7 - LOU Rugby - 351 avenue Jean Jaurès',
     heure: '15h - 19h',
   },
   {
-    date: '6 Mai',
+    date: 'Lundi 6 Mai',
     type_collecte: 'Collecte Mobile',
     lieu: 'Lyon 3 - Mairie du 3ème - 215 rue Duguesclin',
     heure: '9h - 13h & 15h - 19h',
@@ -30,11 +30,11 @@ function Collecte({date, type_collecte, lieu, heure}: CollecteProps) {
   return (
     <div className="">
       <div className="flex items-center">
-        <div className="h-3 w-3 bg-red-800 rounded-full"></div>
-        <div className="ml-2 font-medium text-slate-600">{date}</div>
+        <div className="h-3 w-3 bg-red-700 rounded-full"></div>
+        <div className="ml-2 font-medium text-gray-500">{date}</div>
       </div>
       <div className="flex ">
-        <div className="h-[110px] w-[2px] ml-1 bg-[#009de0]"></div>
+        <div className="h-[110px] w-[2px] ml-[5px] bg-[#009de0]"></div>
         <div className="ml-4 pt-1 pb-6">
           <div className="font-bold text-xl">{type_collecte}</div>
           <div className="font-semibold text-slate-800">{lieu}</div>
