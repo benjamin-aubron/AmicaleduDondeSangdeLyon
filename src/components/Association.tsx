@@ -29,12 +29,12 @@ const AssoEnBrefList : AssoProps[] = [
 
 function AssoEnBref({icon, mesure, description}: AssoProps) {
   return (
-    <div className="flex items-center p-6 bg-white rounded-lg shadow-md">
+    <div className="flex items-center p-6 bg-white rounded-2xl shadow-md">
       <div className="text-red-700 text-3xl w-14 h-14 bg-red-200 rounded-xl flex items-center justify-center">
         {icon}
       </div>
       <div className="ml-4">
-        <div className="text-2xl font-bold text-red-700 dark:text-slate-200">
+        <div className="text-3xl font-bold text-red-700 dark:text-slate-200">
           {mesure}
         </div>
         <div className="text-gray-600 dark:text-gray-400">
@@ -47,15 +47,15 @@ function AssoEnBref({icon, mesure, description}: AssoProps) {
 
 export default function Association() {
   return (
-    <div className="py-20 bg-red-100">
+    <div className="py-32 bg-blue-100">
       <div className="container">
-        <div className="flex flex-col md:flex-row items-center ">
-          <h2 className='text-4xl font-bold text-slate-900 dark:text-slate-300'>
+        <div className="flex flex-col items-center ">
+          <h2 className='text-5xl font-bold text-[#009de0] dark:text-slate-300'>
             L'association en bref
           </h2>
-          <Link href="/blog" className="text-slate-800 hover:text-red-800 ml-3 pb-1">(Nos dernières actualités <div className="inline top-[2.5px] relative"><MdOpenInNew /></div>)</Link>
+          <Link href="/blog" className="text-slate-800 hover:text-blue-700 ml-3 pb-1">(Nos dernières actualités ici <div className="inline top-[2.5px] relative"><MdOpenInNew /></div>)</Link>
         </div>
-        <div className="pt-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+        <div className="pt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {AssoEnBrefList.map((props, idx) => (
             <AssoEnBref key={idx} {...props} />
           ))}

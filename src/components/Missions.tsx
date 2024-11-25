@@ -15,7 +15,7 @@ const MissionList: CardProps[] = [
     title: 'Participer aux collectes',
     description: (
       <>
-        Contribuer aux collectes à Lyon, Bron et Villeurbanne en assurant l'accueil, l'orientation des donneurs et la gestion de la collation.
+        Contribuer aux collectes mobiles à <b>Lyon</b>, <b>Bron</b> et <b>Villeurbanne</b> en assurant l'accueil, l'orientation des donneurs et la gestion de la collation.
       </>
     ),
   },
@@ -42,7 +42,7 @@ const MissionList: CardProps[] = [
 
 function Card({ icon, title, description }: CardProps){
   return (
-    <div className="flex flex-col p-6 bg-white dark:bg-[#242526] rounded-lg shadow-md">
+    <div className="flex flex-col p-6 bg-white dark:bg-[#242526] rounded-2xl shadow-md">
       <div className="flex h-12 w-12 bg-red-600 dark:bg-red-900 items-center justify-center rounded-xl text-white dark:text-slate-300 text-2xl">
       {icon}
       </div>
@@ -58,9 +58,9 @@ function Card({ icon, title, description }: CardProps){
 
 export default function Missions(): JSX.Element {
   return (
-    <section className='bg-red-100 dark:bg-[#1b1b1d] py-20'>
+    <section className='bg-blue-100 dark:bg-[#1b1b1d] py-32'>
       <div className="container">
-        <h2 className='text-4xl font-bold text-slate-900 dark:text-slate-300 pb-6'> Nos Missions</h2>
+        <h2 className='text-5xl text-center font-bold text-[#009de0] dark:text-slate-300 pb-8'> Nos Missions</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">  
           {MissionList.map((props, idx) => (
             <Card key={idx} {...props} />
