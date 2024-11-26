@@ -1,32 +1,14 @@
+import futuresCollectes from "../db/futuresCollectes.json";
+
 type CollecteProps = {
+  mois: string;
   date: string;
   type_collecte: string;
   lieu: string;
   heure: string;
 }
 
-const CollecteList: CollecteProps[] = [
-  {
-    date: 'Vendredi 19 Avril',
-    type_collecte: 'Collecte Mobile',
-    lieu: 'Lyon 4 - Salle de la Ficelle - 65 boulevard des canuts',
-    heure: '15h - 19h',
-  },
-  {
-    date: 'Mardi 30 Avril',
-    type_collecte: 'Collecte Evènementielle',
-    lieu: 'Lyon 7 - LOU Rugby - 351 avenue Jean Jaurès',
-    heure: '15h - 19h',
-  },
-  {
-    date: 'Lundi 6 Mai',
-    type_collecte: 'Collecte Mobile',
-    lieu: 'Lyon 3 - Mairie du 3ème - 215 rue Duguesclin',
-    heure: '9h - 13h & 15h - 19h',
-  },
-]
-
-function Collecte({date, type_collecte, lieu, heure}: CollecteProps) {
+function Collecte({mois, date, type_collecte, lieu, heure}: CollecteProps) {
   return (
     <div className="">
       <div className="flex items-center">
@@ -46,6 +28,9 @@ function Collecte({date, type_collecte, lieu, heure}: CollecteProps) {
 }
 
 export default function Collectes() {
+  
+  const mois = [...new Set(futuresCollectes.map(el => el.mois))];
+
   return (
     <section className="py-20 md:py-32 px-6">
       <div className="sm:max-w-2xl sm:mx-auto w-fit">
@@ -53,9 +38,17 @@ export default function Collectes() {
           Nos prochaines collectes
         </h2>
         <div>
-          {CollecteList.map((props, idx) => (
-            <Collecte key={idx} {...props} />
+          {mois.map((mois, idx) => (
+            <div key={idx} className='pb-4'>
+              <h3 className=" mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-200">{mois}</h3>
+              <div className="">
+                {futuresCollectes.filter(collecte => collecte.mois === mois).map((props, idx) => (
+                  <Collecte key={idx} {...props} />
+                ))}
+              </div>
+            </div>
           ))}
+          
         </div>
       </div>
     </section>

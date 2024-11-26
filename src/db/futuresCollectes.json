@@ -1,0 +1,23 @@
+[
+  {
+    "mois": "Avril",
+    "date": "Vendredi 19 Avril",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Lyon 4 - Salle de la Ficelle - 65 boulevard des canuts",
+    "heure": "15h - 19h"
+  },
+  {
+    "mois": "Avril",
+    "date": "Mardi 30 Avril",
+    "type_collecte": "Collecte Evènementielle",
+    "lieu": "Lyon 7 - LOU Rugby - 351 avenue Jean Jaurès",
+    "heure": "15h - 19h"
+  },
+  {
+    "mois": "Mai",
+    "date": "Lundi 6 Mai",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Lyon 3 - Mairie du 3ème - 215 rue Duguesclin",
+    "heure": "9h - 13h & 15h - 19h"
+  }
+]
