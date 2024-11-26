@@ -17,9 +17,24 @@ export default function ContactForm() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    const newFormData = { ...formData, [name]: value };
+    setFormData(newFormData);
+    console.log(newFormData);
   };
 
+  const clearInput = () => {
+    const inputs = document.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('input, textarea');
+    inputs.forEach(input => {
+      input.value = '';
+    });
+
+    setFormData({
+      firstname: "",
+      name: "",
+      email: "",
+      message: "",
+    });
+  }
   const handleSubmit = async (e) => {
     e.preventDefault();
   
@@ -28,21 +43,17 @@ export default function ContactForm() {
         "Adsbl", 
         "template_1",
         {
-          from_name: `${formData.firstname} ${formData.name}`,
-          reply_to: formData.email,
+          firstname: formData.firstname.charAt(0).toUpperCase() + formData.firstname.slice(1),
+          name: formData.name.toUpperCase(),
+          email: formData.email,
           message: formData.message,
         },
         "JinuVfX-BcozGsZbk"
       );
-      
       toast.success("Message envoyé avec succès !");
       
-      setFormData({
-        firstname: "",
-        name: "",
-        email: "",
-        message: "",
-      });
+      clearInput()
+
       
     } catch (error) {
       toast.error("Erreur lors de l'envoi du message");
@@ -76,6 +87,7 @@ export default function ContactForm() {
             <input
               type="text"
               id="firstname"
+              name="firstname"
               placeholder="prénom"
               required
               autoComplete="off"
@@ -85,11 +97,12 @@ export default function ContactForm() {
             <input
               type="text"
               id="name"
+              name="name"
               placeholder="Nom"
               required
               autoComplete="off"
               onChange={handleChange}
-              className="w-full mt-3 md:mt-0 md:ml-4 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg uppercase"
+              className="w-full mt-3 md:mt-0 md:ml-3 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg uppercase"
             />
           </div>
           <input
@@ -112,7 +125,6 @@ export default function ContactForm() {
             className="w-full h-52 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg resize-none font-sans"
           />
           <button
-            // onClick={notify}
             type="submit"
             className="mt-4 px-6 py-2 rounded-lg text-lg border-none bg-red-500 hover:bg-red-700 text-slate-100 hover:text-white shadow-md cursor-pointer"
           >
