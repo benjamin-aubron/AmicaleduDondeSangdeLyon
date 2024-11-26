@@ -82,7 +82,10 @@ const config: Config = {
           items: [  
             {
               html: `
-                <a href="https://www.helloasso.com/associations/amicale-des-donneurs-de-sang-benevoles-de-lyon-adsbl" target="_blank" rel="noopener noreferrer" style="color:white;">
+                <a href="https://www.helloasso.com/associations/amicale-des-donneurs-de-sang-benevoles-de-lyon-adsbl" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="text-white hover:text-white">
                   Adhérer à notre amicale
                 </a>
               `,

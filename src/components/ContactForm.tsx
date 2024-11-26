@@ -63,7 +63,7 @@ export default function ContactForm() {
 
 
   return (
-    <div className="py-20 md:py-32 bg-blue-100">
+    <div className="py-20 md:py-32 bg-blue-100 dark:bg-[#18181a]">
       <div className="container">
         <h2 className="text-3xl md:text-5xl font-bold text-center text-[#009de0] dark:text-slate-300 pb-8">
           Contactez-nous
@@ -81,7 +81,7 @@ export default function ContactForm() {
               required
               autoComplete="off"
               onChange={handleChange}
-              className="w-full rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg capitalize"
+              className="w-full rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg capitalize dark:bg-[#242526]"
             />
             <input
               type="text"
@@ -91,7 +91,7 @@ export default function ContactForm() {
               required
               autoComplete="off"
               onChange={handleChange}
-              className="w-full mt-3 md:mt-0 md:ml-3 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg uppercase"
+              className="w-full mt-3 md:mt-0 md:ml-3 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg uppercase dark:bg-[#242526]"
             />
           </div>
           <input
@@ -102,7 +102,7 @@ export default function ContactForm() {
             required
             autoComplete="off"
             onChange={handleChange}
-            className="w-full rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg"
+            className="w-full rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg dark:bg-[#242526]"
           />
           <textarea
             name="message"
@@ -111,11 +111,11 @@ export default function ContactForm() {
             required
             autoComplete="off"
             onChange={handleChange}
-            className="w-full h-52 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg resize-none font-sans"
+            className="w-full h-52 rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-red-300 shadow-md p-2 text-lg resize-none font-sans dark:bg-[#242526]"
           />
           <button
             type="submit"
-            className="mt-4 px-6 py-2 rounded-lg text-lg border-none bg-red-500 hover:bg-red-700 text-slate-100 hover:text-white shadow-md cursor-pointer"
+            className="mt-4 px-6 py-2 rounded-lg text-lg border-none bg-red-500 hover:bg-red-700 dark:bg-red-900 hover:dark:bg-red-950 text-slate-100 hover:text-white shadow-md cursor-pointer"
           >
             Envoyer
           </button>

@@ -29,7 +29,7 @@ const AssoEnBrefList : AssoProps[] = [
 
 function AssoEnBref({icon, mesure, description}: AssoProps) {
   return (
-    <div className="flex items-center p-6 bg-white rounded-2xl shadow-md">
+    <div className="flex items-center p-6 bg-white dark:bg-[#242526] rounded-2xl shadow-md">
       <div className="text-red-700 text-3xl w-14 h-14 bg-red-200 rounded-xl flex items-center justify-center">
         {icon}
       </div>
@@ -47,7 +47,7 @@ function AssoEnBref({icon, mesure, description}: AssoProps) {
 
 export default function Association() {
   return (
-    <div className="py-20 md:py-32 bg-blue-100">
+    <div className="py-20 md:py-32 bg-blue-100 dark:bg-[#18181a]">
       <div className="container">
         <h2 className='text-3xl md:text-5xl text-center font-bold text-[#009de0] dark:text-slate-300 pb-6'>
           L'association en bref
