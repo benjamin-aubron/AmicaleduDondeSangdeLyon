@@ -47,8 +47,8 @@ function Collecte({date, type_collecte, lieu, heure}: CollecteProps) {
 
 export default function Collectes() {
   return (
-    <section className="py-32 px-6 sm:max-w-2xl sm:mx-auto w-fit">
-      <h2 className='text-5xl font-bold text-[#009de0] dark:text-slate-300 pb-8'>
+    <section className="py-20 md:py-32 px-6 sm:max-w-2xl sm:mx-auto w-fit">
+      <h2 className='text-3xl md:text-5xl font-bold text-[#009de0] dark:text-slate-300 pb-8'>
         Nos prochaines collectes
       </h2>
       <div>

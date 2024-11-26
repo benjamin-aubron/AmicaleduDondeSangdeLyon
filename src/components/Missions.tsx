@@ -58,9 +58,9 @@ function Card({ icon, title, description }: CardProps){
 
 export default function Missions(): JSX.Element {
   return (
-    <section className='bg-blue-100 dark:bg-[#1b1b1d] py-32'>
+    <section className='bg-blue-100 dark:bg-[#1b1b1d] py-20 md:py-32'>
       <div className="container">
-        <h2 className='text-5xl text-center font-bold text-[#009de0] dark:text-slate-300 pb-8'> Nos Missions</h2>
+        <h2 className='text-3xl md:text-5xl text-center font-bold text-[#009de0] dark:text-slate-300 pb-8'> Nos Missions</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">  
           {MissionList.map((props, idx) => (
             <Card key={idx} {...props} />

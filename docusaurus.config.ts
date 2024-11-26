@@ -156,7 +156,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Amicale Don du Sang de Lyon. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} - Amicale du Don du Sang de Lyon`,
     },
     prism: {
       theme: prismThemes.github,

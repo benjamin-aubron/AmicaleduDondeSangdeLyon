@@ -36,9 +36,9 @@ function Partner({image, title}: PartnersProps) {
 
 export default function Partners() {
   return (
-    <div className="py-32">
+    <div className="py-20 md:py-32">
       <div className="container">
-        <h2 className='text-5xl text-center font-bold text-[#009de0] dark:text-slate-300 pb-4'>
+        <h2 className='text-3xl md:text-5xl text-center font-bold text-[#009de0] dark:text-slate-300 pb-4'>
           Nos partenaires et nos sponsors
         </h2>
         <div className="pt-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">

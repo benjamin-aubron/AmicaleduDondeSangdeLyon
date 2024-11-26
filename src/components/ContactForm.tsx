@@ -61,22 +61,11 @@ export default function ContactForm() {
     }
   };
 
-  const notify = () =>
-    toast.success("Message envoyé avec succès !", {
-      position: "top-right",
-      autoClose: 2500,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
 
   return (
-    <div className="py-32 bg-blue-100">
+    <div className="py-20 md:py-32 bg-blue-100">
       <div className="container">
-        <h2 className="text-5xl font-bold text-center text-[#009de0] dark:text-slate-300 pb-8">
+        <h2 className="text-3xl md:text-5xl font-bold text-center text-[#009de0] dark:text-slate-300 pb-8">
           Contactez-nous
         </h2>
         <form
@@ -88,7 +77,7 @@ export default function ContactForm() {
               type="text"
               id="firstname"
               name="firstname"
-              placeholder="prénom"
+              placeholder="prénom*"
               required
               autoComplete="off"
               onChange={handleChange}
@@ -98,7 +87,7 @@ export default function ContactForm() {
               type="text"
               id="name"
               name="name"
-              placeholder="Nom"
+              placeholder="Nom*"
               required
               autoComplete="off"
               onChange={handleChange}
@@ -109,7 +98,7 @@ export default function ContactForm() {
             type="email"
             name="email"
             id="email"
-            placeholder="Email"
+            placeholder="Email*"
             required
             autoComplete="off"
             onChange={handleChange}
@@ -118,7 +107,7 @@ export default function ContactForm() {
           <textarea
             name="message"
             id="message"
-            placeholder="Votre message"
+            placeholder="Votre message*"
             required
             autoComplete="off"
             onChange={handleChange}
