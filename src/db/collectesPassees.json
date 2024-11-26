@@ -1,0 +1,30 @@
+[
+  {
+    "mois": "Octobre",
+    "date": "Mercredi 30 Octobre",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Villeurbanne - CCVA",
+    "présentés": "121",
+    "prélevés": "109",
+    "nouveaux": "14"
+  },
+  {
+    "mois": "Septembre",
+    "date": "Lundi 30 Septembre",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "BRON - Espace Roger Pestourie",
+    "présentés": "90",
+    "prélevés": "74",
+    "nouveaux": "6"
+  },
+  {
+    "mois": "Juin",
+    "date": "Mercredi 26 Juin",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Villeurbanne - CCVA",
+    "présentés": "136",
+    "prélevés": "109",
+    "nouveaux": "17"
+  }
+
+]
