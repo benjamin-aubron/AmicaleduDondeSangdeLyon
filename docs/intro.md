@@ -10,5 +10,4 @@ Cette documentation est une ressource en ligne pour mieux appréhender l'associa
 ### Cette documentation se compose des parties suivantes :
 
 1. [**Le fonctionnement**](/docs/category/fonctionnement) qui présente l'association, son fonctionnement et son rôle au sein de la Fédération.
-2. [**Le règlement intérieur**](/docs/category/reglement-interieur) qui nous rappelle à tous les règles et les obligations de l'association.
 3. [**Les documents officiels**](/docs/category/documents-officiels) qui doivent être accessibles à tous les membres de l'association.
