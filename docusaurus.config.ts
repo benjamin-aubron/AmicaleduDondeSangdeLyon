@@ -40,6 +40,9 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
         },
         blog: {
+          postsPerPage: 10,
+          blogSidebarTitle: 'Tous les articles',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -47,7 +50,7 @@ const config: Config = {
           },
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/custom.css',

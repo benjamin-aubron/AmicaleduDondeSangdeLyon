@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+Collecte:
+  label: Collecte
+  permalink: /collecte
+  description: Collecte tag description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+Compte rendu:
+  label: Compte rendu
+  permalink: /compte rendu
+  description: Compte rendu tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+Bron:
+  label: Bron
+  permalink: /bron
+  description: Bron tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+Lyon:
+  label: Lyon
+  permalink: /lyon
+  description: Lyon tag description
+
+Villeurbanne:
+  label: Villeurbanne
+  permalink: /villeurbanne
+  description: Villeurbanne tag description

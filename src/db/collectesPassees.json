@@ -1,7 +1,7 @@
 [
   {
     "mois": "Octobre",
-    "date": "Mercredi 30 Octobre",
+    "date": "Mercredi 30 Octobre 2024",
     "type_collecte": "Collecte Mobile",
     "lieu": "Villeurbanne - CCVA",
     "présentés": "121",
@@ -10,7 +10,7 @@
   },
   {
     "mois": "Septembre",
-    "date": "Lundi 30 Septembre",
+    "date": "Lundi 30 Septembre 2024",
     "type_collecte": "Collecte Mobile",
     "lieu": "BRON - Espace Roger Pestourie",
     "présentés": "90",
@@ -19,12 +19,57 @@
   },
   {
     "mois": "Juin",
-    "date": "Mercredi 26 Juin",
+    "date": "Mercredi 26 Juin 2024",
     "type_collecte": "Collecte Mobile",
     "lieu": "Villeurbanne - CCVA",
     "présentés": "136",
     "prélevés": "109",
     "nouveaux": "17"
+  },
+  {
+    "mois": "Avril",
+    "date": "Vendredi 19 Avril 2024",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Lyon 4 - Salle de la Ficelle",
+    "présentés": "141",
+    "prélevés": "118",
+    "nouveaux": "7"
+  },
+  {
+    "mois": "Avril",
+    "date": "Jeudi 4 Avril 2024",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Lyon 6 - Mairie du 6ème",
+    "présentés": "158",
+    "prélevés": "124",
+    "nouveaux": "17"
+  },
+  {
+    "mois": "Mars",
+    "date": "Jeudi 22 Mars 2024",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Lyon 3 - Centre commercial Part Dieu",
+    "présentés": "164",
+    "prélevés": "125",
+    "nouveaux": "15"
+  },
+  {
+    "mois": "Juin",
+    "date": "Mercredi 19 Juin 2024",
+    "type_collecte": "Collecte Évènementielle",
+    "lieu": "Lyon 1 - Hôtel de ville",
+    "présentés": "311",
+    "prélevés": "245",
+    "nouveaux": "72"
+  },
+  {
+    "mois": "Juin",
+    "date": "Mardi 18 Juin 2024",
+    "type_collecte": "Collecte Évènementielle",
+    "lieu": "Lyon 1 - Hôtel de ville",
+    "présentés": "317",
+    "prélevés": "268",
+    "nouveaux": "70"
   }
 
 ]
