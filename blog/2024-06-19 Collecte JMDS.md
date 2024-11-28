@@ -1,7 +1,7 @@
 ---
 slug: collect-lyon1-jun-2024
 title: Collecte à Lyon 1 - JMDS
-tags: [Collecte, Lyon]
+tags: [Collecte Evènementielle, Lyon]
 ---
 
 #### Résultats de la collecte Évènementielle

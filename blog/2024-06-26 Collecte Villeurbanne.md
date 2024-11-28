@@ -1,6 +1,6 @@
 ---
 slug: collect-villeurbanne-jun-2024
-title: Collecte à Villeurbanne
+title: Collecte à Villeurbanne - CCVA
 tags: [Collecte, Villeurbanne]
 ---
 

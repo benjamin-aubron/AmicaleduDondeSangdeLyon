@@ -3,6 +3,11 @@ Collecte:
   permalink: /collecte
   description: Collecte tag description
 
+Collecte Evènementielle:
+  label: Collecte Evènementielle
+  permalink: /collecte_ev
+  description: Collecte évènementielle tag description
+
 Compte rendu:
   label: Compte rendu
   permalink: /compte rendu

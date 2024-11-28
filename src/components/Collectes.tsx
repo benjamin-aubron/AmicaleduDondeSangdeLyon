@@ -17,9 +17,9 @@ function Collecte({mois, date, type_collecte, lieu, heure}: CollecteProps) {
       </div>
       <div className="flex ">
         <div className="h-[110px] w-[2px] ml-[5px] bg-[#009de0] dark:bg-blue-900"></div>
-        <div className="ml-4 pt-1 pb-6">
-          <div className="font-bold text-xl">{type_collecte}</div>
-          <div className="font-semibold text-slate-800 dark:text-gray-300">{lieu}</div>
+        <div className="ml-4 pb-6">
+          <div className="font-bold text-2xl">{lieu}</div>
+          <div className="font-semibold text-slate-800 dark:text-gray-300">{type_collecte}</div>
           <div className="font-semibold text-slate-800 dark:text-gray-300">{heure}</div>
         </div>
       </div>

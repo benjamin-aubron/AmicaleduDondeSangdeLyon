@@ -1,6 +1,6 @@
 ---
 slug: collect-bron-sep-2024
-title: Collecte à Bron
+title: Collecte à Bron - Espace Pestourie
 tags: [Collecte, Bron]
 ---
 

@@ -1,7 +1,7 @@
 ---
 slug: collect-lyon3-mar-2024
-title: Collecte à Lyon 3
-tags: [Collecte, Lyon]
+title: Collecte à Lyon 3 - Centre commercial Part-Dieu
+tags: [Collecte Evènementielle, Lyon]
 ---
 
 #### Résultats de la collecte

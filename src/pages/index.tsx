@@ -29,16 +29,16 @@ export default function Home(): JSX.Element {
       description="Le site de l'Amicale Don du Sang de Lyon">
       <HomepageHeader />
       <ToastContainer
-position="top-right"
-autoClose={2500}
-hideProgressBar
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="light"
+        position="top-right"
+        autoClose={2500}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
       />
       <main>
         <Missions />
