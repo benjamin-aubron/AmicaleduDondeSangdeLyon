@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # Guide du bénévole en collecte
 
+Ce guide est à destination des bénévoles en collecte. Il aborde les principales questions et est composé de quatre parties :
+
 ### 1. Comprendre le déroulement de la collecte
 
 #### 1.1 - Préparer la venue en collecte
@@ -48,7 +50,82 @@ sidebar_position: 4
 - La technique de prélèvement est appelée aphérèse. Elle consiste à prélever en plusieurs cycles un volume de sang dont les plaquettes seront séparées et le reste des constituants du sang sera réinjecté dans la veine du donneur.
 
 #### 1.3 - Parcours du donneurs
+Accueil : enregistrement administratif (pièce d’identité). Chaque candidat au don remplit un questionnaire.
 
+Entretien pré-don (avec un-e médecin, un-e infirmier-e) permettant de déterminer l’aptitude au don.
+
+Prélèvement : avec un matériel stérile et à usage unique. Durée variable en fonction du don.
+
+Collation : temps de repos et de convivialité de 20 min au minimum.
+
+#### 1.4 - Le don de sang total
+- Bonnes pratiques avant le don : bien manger (en évitant les matières grasses) boire beaucoup d’eau.
+- Durée du parcours donneur : durée très relative, selon la réalité du terrain. En moyenne, il faut compter environ 1 heure, dont 20 minutes minimum dédiées à la collation, mais il ne faut pas être pressé par le temps.
+- Le donneur peut être amené à réaliser un test d’hémoglobine par prélèvement de quelques gouttes de sang avant le don afin d’éviter de prélever un donneur anémié.
+- Informations importantes post-don : éviter de fumer pendant 2 heures et de pratiquer un effort physique pour le reste de la journée.
+- Quelques chiffres :
+  - En France, on a besoin de 10 000 poches de sang par jour.
+  - 1 million de malades soignés chaque année dont 500 000 par transfusion et 500 000 avec des médicaments dérivés du sang.
+  - 3 millions de don de sang par an.
+  - 1,74 don par donneur et par an en moyenne.
+
+#### 1.5 - Parcours de la poche de sang
+Le prélèvement : après le remplissage du questionnaire et l’entretien, le personnel médical détermine si le donneur est apte au don. La personne s’occupant du prélèvement y a été spécialement formée, au-delà de ses études en soins infirmiers.
+
+La préparation : chaque poche prélevée sera filtrée puis centrifugée afin d’en séparer les composants (globules rouges, plasma, plaquettes). En effet, on ne transfuse jamais au malade du sang total, mais uniquement le ou les composants dont il a besoin. La poche de sang sera également déleucocytée.
+
+La qualification biologique des dons : au début du prélèvement, on recueille des tubes échantillons qui passent ensuite une série de tests (virologiques, sérologiques, immunologiques). Si la qualification n'est pas satisfaisante, la poche prélevée est détruite. En cas d'anomalie biologique, le donneur est informé.
+
+La distribution : préparés et qualifiés, les produits sanguins sont distribués aux hôpitaux et cliniques qui en font la demande.
+
+### 2. Conditions pour donner et contre-indications.
+#### 2.1 - Conditions pour donner son sang
+- Avoir entre 18 et 70 ans révolus (65 ans pour un premier don et don de plasma / plaquettes).
+- Présenter une pièce d'identité
+- Se sentir en bonne santé et apte au don de sang
+- Peser au moins 50 kg pour un don de sang (55 kg pour un don de plasma / plaquettes)
+
+#### 2.2 - Quelques contre-indications définitives
+- Antécédents de transfusion
+- Séjour de plus d'un an cumulé au Royaume-Uni entre 1980 et 1996
+- Certaines maladies
+
+#### 2.3 - Quelques contre-indications temporaires
+- 7 jours après des soins dentaires (extraction) et 1 jour après le soin d'une carie ou un détartrage
+- 7 jours après la fin d'un traitement antibiotique (à l'exception du traitement pour l'acné)
+- 14 jours après une infection ou fièvre (>38°C)
+- 4 mois après un voyage dans un pays où sévit le paludisme ou le maladie de Chagas ou autre maladie transmise par des moustiques (don de plasma possible)
+- 4 mois après une intervention chirurgicale, endoscopique, piercing ou tatouage
+- 6 mois après un accouchement
+
+#### 2.4 - Orienter le donneur vers le médecin de collecte
+- Après l’enregistrement
+- En cas de doute (pathologie, médicament…).
+- Pour des questions confidentielles (partenaires, rapports sexuels à risques, etc.).
+
+### 3. Rôle des bénévoles
+#### 3.1 - Rôle du bénévole avant la collecte
+- Sensibiliser, motiver et fidéliser les donneurs (sang, plasma, plaquettes, moelle osseuse, etc.).
+- Signaler la collecte : banderoles, panneaux, affiches, réseaux sociaux
+- Informer, tracter et mobiliser
+
+#### 3.2 - Rôle de l'association avant la collecte
+- Aide à l'installation et au rangement de la salle
+
+- Achat de la collation (dans un futur)
+
+#### 3.3 - Rôle du bénévole penfant la collecte
+- Accueillir les donneurs, les informer des contre-indications et les orienter tout au long de leur parcours.
+- Gérer l’affluence.
+- Accompagner les donneurs qui ont été refusés, sans poser de questions.
+Former et informer les bénévoles – Décembre 2022 5/6
+- Assurer une présence durant la collation et aider à la surveillance après le don. Les bénévoles peuvent échanger avec les donneurs pour les informer sur les autres types de dons : de plasma, de plaquettes, de moelle osseuse.
+- Remercier le donneur à son départ.
+Le médecin responsable de la collecte reste l’interlocuteur privilégié des associations et bénévoles.
+
+#### 3.4 - Rôle du bénévole après la collecte
+- Retour d'expériences avec l'EFS si besoin
+- Remonter à l'Union Départementale toute information jugée utile (manque de matériel, comportement, ressenti des donneurs...)
 
 ### 4. Prise en charge des donneurs
 Notre mission est de rassurer et de mettre le donneur en confiance.
