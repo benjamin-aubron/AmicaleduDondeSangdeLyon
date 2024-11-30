@@ -50,12 +50,9 @@ Ce guide est à destination des bénévoles en collecte. Il aborde les principal
 - La technique de prélèvement est appelée aphérèse. Elle consiste à prélever en plusieurs cycles un volume de sang dont les plaquettes seront séparées et le reste des constituants du sang sera réinjecté dans la veine du donneur.
 
 #### 1.3 - Parcours du donneurs
-Accueil : enregistrement administratif (pièce d’identité). Chaque candidat au don remplit un questionnaire.
-
-Entretien pré-don (avec un-e médecin, un-e infirmier-e) permettant de déterminer l’aptitude au don.
-
-Prélèvement : avec un matériel stérile et à usage unique. Durée variable en fonction du don.
-
+Accueil : enregistrement administratif (pièce d’identité). Chaque candidat au don remplit un questionnaire.  
+Entretien pré-don (avec un-e médecin, un-e infirmier-e) permettant de déterminer l’aptitude au don.  
+Prélèvement : avec un matériel stérile et à usage unique. Durée variable en fonction du don.  
 Collation : temps de repos et de convivialité de 20 min au minimum.
 
 #### 1.4 - Le don de sang total
@@ -70,12 +67,9 @@ Collation : temps de repos et de convivialité de 20 min au minimum.
   - 1,74 don par donneur et par an en moyenne.
 
 #### 1.5 - Parcours de la poche de sang
-Le prélèvement : après le remplissage du questionnaire et l’entretien, le personnel médical détermine si le donneur est apte au don. La personne s’occupant du prélèvement y a été spécialement formée, au-delà de ses études en soins infirmiers.
-
-La préparation : chaque poche prélevée sera filtrée puis centrifugée afin d’en séparer les composants (globules rouges, plasma, plaquettes). En effet, on ne transfuse jamais au malade du sang total, mais uniquement le ou les composants dont il a besoin. La poche de sang sera également déleucocytée.
-
-La qualification biologique des dons : au début du prélèvement, on recueille des tubes échantillons qui passent ensuite une série de tests (virologiques, sérologiques, immunologiques). Si la qualification n'est pas satisfaisante, la poche prélevée est détruite. En cas d'anomalie biologique, le donneur est informé.
-
+Le prélèvement : après le remplissage du questionnaire et l’entretien, le personnel médical détermine si le donneur est apte au don. La personne s’occupant du prélèvement y a été spécialement formée, au-delà de ses études en soins infirmiers.  
+La préparation : chaque poche prélevée sera filtrée puis centrifugée afin d’en séparer les composants (globules rouges, plasma, plaquettes). En effet, on ne transfuse jamais au malade du sang total, mais uniquement le ou les composants dont il a besoin. La poche de sang sera également déleucocytée.  
+La qualification biologique des dons : au début du prélèvement, on recueille des tubes échantillons qui passent ensuite une série de tests (virologiques, sérologiques, immunologiques). Si la qualification n'est pas satisfaisante, la poche prélevée est détruite. En cas d'anomalie biologique, le donneur est informé.  
 La distribution : préparés et qualifiés, les produits sanguins sont distribués aux hôpitaux et cliniques qui en font la demande.
 
 ### 2. Conditions pour donner et contre-indications.
