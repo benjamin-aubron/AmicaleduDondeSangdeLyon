@@ -8,7 +8,7 @@ La gouvernance d'une association peut être compliquée à comprendre. Voici don
 
 ### Assemblée Générale Constitutive
 C'est l'assemblée qui permet la création de la structure de l'association. Elle rédige les statuts et les règlements de l'association. Cette assemblée a eu lieu le 11/10/2023 et était composée de **Robin DUFER** en tant que président de séance et **Benjamin AUBRON** en tant que secrétaire de séance.
-Vous pouvez retrouver le [procès-verbal le l'assemblée ici.]("/")
+Vous pouvez retrouver le [procès-verbal le l'assemblée ici.](/pdf/Assemblée%20Générale%20Constitutive.pdf)
 
 ### Assemblée Générale Ordinaire
 
