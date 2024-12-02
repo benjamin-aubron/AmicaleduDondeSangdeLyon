@@ -7,4 +7,8 @@ sidebar_position: 5
 - Assemblée générale ordianaire
 - Assemblée générale extraordinaire
 - Assemblée constituante
+
 - conseil d'administration
+- bureau
+
+- dissolution
