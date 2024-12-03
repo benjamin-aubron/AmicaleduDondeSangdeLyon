@@ -136,7 +136,7 @@ const config: Config = {
             {
               html: `
                 <a target="_blank" rel="noopener noreferrer" style="color:white;">
-                  Ajout de collecte (à venir)
+                  Gestion des collectes (à venir)
                 </a>
               `,
             },
