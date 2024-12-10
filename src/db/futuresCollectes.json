@@ -9,7 +9,7 @@
   {
     "mois": "Janvier",
     "date": "Vendredi 10 Janvier",
-    "type_collecte": "Collecte Mobile - (à confirmer)",
+    "type_collecte": "Collecte Mobile",
     "lieu": "Villeurbanne - CCVA",
     "heure": "15h - 19h"
   },
@@ -23,14 +23,14 @@
   {
     "mois": "Février",
     "date": "Mercredi 5 Février",
-    "type_collecte": "Collecte Mobile - (à confirmer)",
+    "type_collecte": "Collecte Mobile",
     "lieu": "Lyon 8 - Mairie du 8ème",
     "heure": "15h - 19h"
   },
   {
     "mois": "Février",
     "date": "Mercredi 19 Février",
-    "type_collecte": "Collecte Mobile - (à confirmer)",
+    "type_collecte": "Collecte Mobile",
     "lieu": "Villeurbanne - CCVA",
     "heure": "15h - 19h"
   }
