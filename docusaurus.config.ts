@@ -43,7 +43,7 @@ const config: Config = {
           postsPerPage: 10,
           blogSidebarTitle: 'Tous les articles',
           blogSidebarCount: 'ALL',
-          showReadingTime: true,
+          showReadingTime: false,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
