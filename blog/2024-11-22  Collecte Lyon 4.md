@@ -6,4 +6,4 @@ tags: [Collecte, Lyon]
 
 #### Résultats de la collecte
 
-Première collecte pour Pascal qui était accompagné de Christiane et d'Arthur. Merci à eux. Au cours de cette collecte, il y a eu **XX présentés**, **XX prélevés** dont **XX primodonneurs**.
+Première collecte pour Pascal qui était accompagné de Christiane et d'Arthur. Merci à eux. Au cours de cette collecte, il y a eu **123 présentés**, **109 prélevés** dont **7 primodonneurs**.
