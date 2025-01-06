@@ -112,7 +112,7 @@ La distribution : préparés et qualifiés, les produits sanguins sont distribu�
 - Accueillir les donneurs, les informer des contre-indications et les orienter tout au long de leur parcours.
 - Gérer l’affluence.
 - Accompagner les donneurs qui ont été refusés, sans poser de questions.
-Former et informer les bénévoles – Décembre 2022 5/6
+Former et informer les bénévoles
 - Assurer une présence durant la collation et aider à la surveillance après le don. Les bénévoles peuvent échanger avec les donneurs pour les informer sur les autres types de dons : de plasma, de plaquettes, de moelle osseuse.
 - Remercier le donneur à son départ.
 Le médecin responsable de la collecte reste l’interlocuteur privilégié des associations et bénévoles.

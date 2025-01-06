@@ -121,8 +121,8 @@ const config: Config = {
             },
             {
               html: `
-                <a target="_blank" rel="noopener noreferrer" style="color:white;">
-                  Comptabilité (à venir)
+                <a target="https://docs.google.com/spreadsheets/d/1I9loNW92vpekB21WOfuFnKdkWbvqysplVBDYhoBz9iA/edit?usp=sharing" rel="noopener noreferrer" style="color:white;">
+                  Comptabilité
                 </a>
               `,
             },
