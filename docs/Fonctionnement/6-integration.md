@@ -15,7 +15,7 @@ Avant qu'une personne s'engage dans l'association, elle peut venir voir, lors d'
 On intégre ainsi cette personne dans la liste des personnes à contacter pour les prochaines collectes. 
 
 :::warning
-Il est important obligatoire que les nouveaux bénévoles soient encadrés par des personnes ayant déjà participé à des collectes afin de s'assurer que leur intégration est cohérente et de répondre à toutes leurs questions.
+Il est obligatoire que les nouveaux bénévoles soient encadrés par des personnes ayant déjà participé à des collectes afin de s'assurer que leur intégration est cohérente et de répondre à toutes leurs questions.
 :::
 
 #### 3 - Adhésion à l'association
