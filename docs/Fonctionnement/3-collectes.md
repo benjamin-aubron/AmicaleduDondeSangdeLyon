@@ -20,7 +20,7 @@ Les collectes mobiles sont directement gérées par notre association. Après co
 
 **Avant la collecte :**
 1. Les responsables de l'association lancent un appel à bénévoles au moins un mois avant la collecte afin de déterminer les bénévoles qui pourraient participer à la collecte. Les bénévoles peuvent s'inscrire en ligne sur le Doodle de l'association ou par email à *adsbl69@hotmail.com*.
-2. Les noms des bénévoles qui seront présents sont communiqués par email à l'EFS (à Mme Massardier) pour des raisons d'assurance.
+2. Les noms des bénévoles qui seront présents sont communiqués par email à l'EFS (à Mme Massardier) pour des questions d'assurance.
 
 **Lors de la collecte :**
 1. Les bénévoles arrivent 15-20 minutes avant le début de la collecte pour se préparer et rencontrer l'équipe de l'EFS.
@@ -30,7 +30,7 @@ Les collectes mobiles sont directement gérées par notre association. Après co
 
 ## Les Collectes Évènementielles
 
-Les collectes évènementielles sont des collectes qui sont gérées par l'UD du Rhône. Ce sont des collectes qui demandent un grand nombre de bénévoles et qui font appel à toutes les amicales du Rhône. Ces collectes sont plus complexes et durent généralement la journée, voire plusieurs jours pour les JMDS (Journées Mondiales de Dons Sang à l'Hôtel de ville). Seuls les bénévoles qui ont déjà participé à une collecte mobile peuvent participer aux collectes évènementielles.
+Les collectes évènementielles sont des collectes qui sont gérées par l'UD du Rhône. Ce sont des collectes qui demandent un grand nombre de bénévoles et qui font appel à toutes les amicales du Rhône. Ces collectes sont plus complexes et durent généralement la journée, voire plusieurs jours pour les JMDS (Journées Mondiales du Don du Sang à l'Hôtel de ville). Seuls les bénévoles qui ont déjà participé à une collecte mobile peuvent participer aux collectes évènementielles.
 
 ### Fonctionnement :
 
