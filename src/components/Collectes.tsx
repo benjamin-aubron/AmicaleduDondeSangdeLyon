@@ -25,11 +25,12 @@ function Collecte({date, type_collecte, lieu, heure, statut}: CollecteProps) {
     <div className="">
       <div className="flex items-center">
         <div className="h-3 w-3 bg-red-700 dark:bg-red-800 rounded-full"></div>
-        <div className={`ml-2 font-medium text-gray-500 dark:text-gray-400 ${statut === 'A Confirmer' && "text-gray-400 dark:text-gray-500"}`}>{capitalizedDate} <span className={`opacity-100 text-gray-400 dark:text-gray-500 font-bold ${statut === 'A Confirmer' ? "inline" : "hidden"}`}>- {statut}</span></div>
+        {/* <div className={`ml-2 font-medium text-gray-500 dark:text-gray-400 ${statut === 'A Confirmer' && "text-gray-400 dark:text-gray-500"}`}>{capitalizedDate} <span className={`opacity-100 text-gray-400 dark:text-gray-500 font-bold ${statut === 'A Confirmer' ? "inline" : "hidden"}`}>- {statut}</span></div> */}
+        <div className={`ml-2 font-medium  ${statut === 'A Confirmer' ? "text-gray-400 dark:text-gray-500":"text-gray-500 dark:text-gray-400"}`}>{capitalizedDate} <span className={`opacity-100 text-gray-400 dark:text-gray-500 font-bold ${statut === 'A Confirmer' ? "inline" : "hidden"}`}>- {statut}</span></div>
       </div>
       <div className="flex">
         <div className="h-[110px] w-[2px] ml-[5px] bg-[#009de0] dark:bg-blue-900"></div>
-        <div className={`ml-4 pb-6 text-slate-800 dark:text-gray-300 ${statut === 'A Confirmer' && "text-gray-400 dark:text-gray-500"}`}>
+        <div className={`ml-4 pb-6 ${statut === 'A Confirmer' ? "text-gray-400 dark:text-gray-500" : "text-slate-800 dark:text-gray-300" }`}>
           <div className="font-bold text-2xl">{lieu}</div>
           <div className="font-semibold">{type_collecte}</div>
           <div className="font-semibold">{heure}</div>
@@ -53,8 +54,8 @@ export default function Collectes() {
         <div>
           {mois.map((mois, idx) => (
             <div key={idx} className='pb-4'>
-              <h3 className=" mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-200">{mois}</h3>
-              <div className="">
+              {listCollectes.filter(collecte => collecte.mois === mois && new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)).length > 0 && <h3 className=" mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-200">{mois}</h3>}
+              <div>
                 {listCollectes.filter(collecte => collecte.mois === mois && new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)).map((props, idx) => ( 
                   <Collecte key={idx} {...props} />
                 ))}
