@@ -25,7 +25,6 @@ function Collecte({date, type_collecte, lieu, heure, statut}: CollecteProps) {
     <div className="">
       <div className="flex items-center">
         <div className="h-3 w-3 bg-red-700 dark:bg-red-800 rounded-full"></div>
-        {/* <div className={`ml-2 font-medium text-gray-500 dark:text-gray-400 ${statut === 'A Confirmer' && "text-gray-400 dark:text-gray-500"}`}>{capitalizedDate} <span className={`opacity-100 text-gray-400 dark:text-gray-500 font-bold ${statut === 'A Confirmer' ? "inline" : "hidden"}`}>- {statut}</span></div> */}
         <div className={`ml-2 font-medium  ${statut === 'A Confirmer' ? "text-gray-400 dark:text-gray-500":"text-gray-500 dark:text-gray-400"}`}>{capitalizedDate} <span className={`opacity-100 text-gray-400 dark:text-gray-500 font-bold ${statut === 'A Confirmer' ? "inline" : "hidden"}`}>- {statut}</span></div>
       </div>
       <div className="flex">
