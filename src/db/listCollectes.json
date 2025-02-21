@@ -83,7 +83,7 @@
     "type_collecte": "Collecte Mobile",
     "lieu": "Lyon 6 - Mairie du 6ème", 
     "heure": "9h-13h et 15h-19h",
-    "statut": "A Confirmer"
+    "statut": "Confirmée"
   },
   {
     "mois": "Avril",
@@ -91,7 +91,7 @@
     "type_collecte": "Collecte Mobile",
     "lieu": "Lyon 8 - Mairie du 8ème",
     "heure": "15h-19h",
-    "statut": "A Confirmer"
+    "statut": "Confirmée"
   },
   {
     "mois": "Avril",
@@ -99,6 +99,6 @@
     "type_collecte": "Collecte Mobile",
     "lieu": "Lyon 4 - Salle de la Ficelle",
     "heure": "15h-19h",
-    "statut": "A Confirmer"
+    "statut": "Confirmée"
   }
 ]
