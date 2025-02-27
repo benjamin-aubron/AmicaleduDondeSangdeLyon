@@ -7,5 +7,3 @@ tags: [Collecte Evènementielle, Lyon]
 #### Résultats de la collecte
 
 Sandrine et Robin ont assuré le bénévolat au centre commercial de Part-Dieu. Un grand merci à eux. Au cours de cette collecte, il y a eu **164 présentés**, **125 prélevés** dont **15 primodonneurs**.
-
-<img src="/img/partdieu.png" alt="Part-Dieu" />
