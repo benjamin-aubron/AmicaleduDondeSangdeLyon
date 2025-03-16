@@ -100,5 +100,29 @@
     "lieu": "Lyon 4 - Salle de la Ficelle",
     "heure": "15h-19h",
     "statut": "Confirmée"
+  },
+  {
+    "mois": "Mai",
+    "date": "13/05/2025",
+    "type_collecte": "Collecte Événementielle",
+    "lieu": "Halle Tony Garnier",
+    "heure": "9h-14h et 15h30-19h",
+    "statut": "Confirmée"
+  },
+  {
+    "mois": "Juin",
+    "date": "18/06/2025",
+    "type_collecte": "Collecte Événementielle",
+    "lieu": "Hôtel de ville",
+    "heure": "9h-14h et 15h30-19h",
+    "statut": "Confirmée"
+  },
+  {
+    "mois": "Juin",
+    "date": "19/06/2025",
+    "type_collecte": "Collecte Événementielle",
+    "lieu": "Hôtel de ville",
+    "heure": "9h-14h et 15h30-19h",
+    "statut": "Confirmée"
   }
 ]
