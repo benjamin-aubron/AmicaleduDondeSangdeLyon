@@ -6,6 +6,6 @@ tags: [Collecte, Bron]
 
 #### Résultats de la collecte
 
-Première collecte pour Amine qui était accompagné d'Arthur et Benjamin. Merci à eux. Au cours de cette collecte, il y a eu **90 présentés**, **74 prélevés** dont **6 primodonneurs**.
+Première collecte pour Amine qui était accompagné d'Arthur et Benjamin. Merci à eux. Au cours de cette collecte, sur **110 donneurs attendus** il y a eu **105 présentés**, **87 prélevés** dont **10 primodonneurs**.
 
 

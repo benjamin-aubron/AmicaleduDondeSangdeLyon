@@ -6,4 +6,4 @@ tags: [Collecte Evènementielle, Lyon]
 
 #### Résultats de la collecte
 
-Sandrine et Robin ont assuré le bénévolat à l'ECAM, une première pour cette collecte évènementielle. Un grand merci à eux.
+Sandrine et Robin ont assuré le bénévolat à l'ECAM, une première pour cette collecte évènementielle. Un grand merci à eux. Au cours de cette collecte, il y a eu **113 prélevés** et **53 primodonneurs**.
