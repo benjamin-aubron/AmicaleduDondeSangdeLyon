@@ -14,7 +14,7 @@ Les collectes sont organisées en deux catégories :
 
 Par collectes mobiles, on entend les collectes qui se déroulent hors des maisons du Don du Sang. Cela peut être, une collecte dans une mairie, une salle polyvalente, un espace de loisirs, etc.
 
-Les collectes mobiles sont directement gérées par notre association. Après confirmation avec l'EFS que la collecte aura lieu, l'amicale du Don du Sang de Lyon se charge de contacter ses bénévoles pour venir en aide à l'EFS.
+Les collectes mobiles sont directement gérées par notre association. Après confirmation avec l'EFS que la collecte aura lieu, l'amicale du Don de Sang de Lyon se charge de contacter ses bénévoles pour venir en aide à l'EFS.
 
 ### Fonctionnement :
 

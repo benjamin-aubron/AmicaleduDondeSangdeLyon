@@ -162,7 +162,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} - Amicale du Don du Sang de Lyon`,
+      copyright: `© ${new Date().getFullYear()} - Amicale du Don de Sang de Lyon`,
     },
     prism: {
       theme: prismThemes.github,
