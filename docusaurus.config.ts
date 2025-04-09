@@ -6,7 +6,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Amicale Don du Sang de Lyon",
+  title: "Amicale du Don de Sang de Lyon",
   // tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -62,9 +62,9 @@ const config: Config = {
   themeConfig: {
     image: 'img/logo.png',
     navbar: {
-      title: 'Amicale Don du Sang de Lyon',
+      title: 'Amicale du Don de Sang de Lyon',
       logo: {
-        alt: 'Amicale Don du Sang de Lyon Logo',
+        alt: 'Amicale du Don de Sang de Lyon Logo',
         src: 'img/logo.png',
       },
       items: [

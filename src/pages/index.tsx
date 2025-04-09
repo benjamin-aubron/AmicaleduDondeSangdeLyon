@@ -26,7 +26,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Le site de l'Amicale Don du Sang de Lyon">
+      description="Le site de l'Amicale du Don de Sang de Lyon">
       <HomepageHeader />
       <ToastContainer
         position="top-right"
