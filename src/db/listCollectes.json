@@ -124,7 +124,8 @@
     "type_collecte": "Collecte Mobile",
     "lieu": "Lyon 6 - Mairie du 6ème", 
     "heure": "9h-13h et 15h-19h",
-    "statut": "Confirmée"
+    "statut": "Confirmée",
+    "results": "150,139,116,16"
   },
   {
     "mois": "Avril",
@@ -132,7 +133,8 @@
     "type_collecte": "Collecte Mobile",
     "lieu": "Lyon 4 - Salle de la Ficelle",
     "heure": "15h-19h",
-    "statut": "Confirmée"
+    "statut": "Confirmée",
+    "results": "120,93,79,7"
   },
   {
     "mois": "Juin",
@@ -148,6 +150,22 @@
     "type_collecte": "Collecte Événementielle",
     "lieu": "Hôtel de ville",
     "heure": "9h-14h et 15h30-19h",
+    "statut": "Confirmée"
+  },
+  {
+    "mois": "Juin",
+    "date": "24/06/2025",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Villeurbanne - CCVA",
+    "heure": "15h-19h",
+    "statut": "Confirmée"
+  },
+  {
+    "mois": "Juin",
+    "date": "27/06/2025",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Lyon 4 - Salle de la Ficelle",
+    "heure": "15h-19h",
     "statut": "Confirmée"
   }
 ]
