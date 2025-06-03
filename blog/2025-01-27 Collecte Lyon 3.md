@@ -1,7 +1,7 @@
 ---
 slug: collect-lyon3-jan-2025
 title: Collecte à Lyon 3 - Auditorium de Lyon
-tags: [Collecte Évènementielle, Lyon]
+tags: [Collecte Evènementielle, Lyon]
 ---
 
 #### Résultats de la collecte
