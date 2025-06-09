@@ -167,6 +167,14 @@
     "lieu": "Lyon 4 - Salle de la Ficelle",
     "heure": "15h-19h",
     "statut": "Confirmée"
+  },
+  {
+    "mois": "Juillet",
+    "date": "16/07/2025",
+    "type_collecte": "Collecte Mobile",
+    "lieu": "Bron - Espace Roger Pestourie",
+    "heure": "15h-19h",
+    "statut": "Confirmée"
   }
 ]
  
