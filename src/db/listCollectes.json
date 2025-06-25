@@ -158,15 +158,8 @@
     "type_collecte": "Collecte Mobile",
     "lieu": "Villeurbanne - CCVA",
     "heure": "15h-19h",
-    "statut": "Confirmée"
-  },
-  {
-    "mois": "Juin",
-    "date": "27/06/2025",
-    "type_collecte": "Collecte Mobile",
-    "lieu": "Lyon 4 - Salle de la Ficelle",
-    "heure": "15h-19h",
-    "statut": "Confirmée"
+    "statut": "Confirmée",
+    "results": "150,96,74,18"
   },
   {
     "mois": "Juillet",
