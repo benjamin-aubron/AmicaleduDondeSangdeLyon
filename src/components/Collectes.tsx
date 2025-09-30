@@ -1,12 +1,13 @@
-import listCollectes from "../db/listCollectes.json";
+import { collectsList } from "../db/listCollectes";
 
-type CollecteProps = {
+export type CollecteProps = {
   mois: string;
   date: string;
   type_collecte: string;
   lieu: string;
   heure: string;
   statut: string;
+  results?: string;
 }
 
 function Collecte({date, type_collecte, lieu, heure, statut}: CollecteProps) {
@@ -41,7 +42,7 @@ function Collecte({date, type_collecte, lieu, heure, statut}: CollecteProps) {
 
 export default function Collectes() {
   
-  const mois = [...new Set(listCollectes.map(el => el.mois))];
+  const mois = [...new Set(collectsList.map(el => el.mois))];
   const today = new Date();
 
   return (
@@ -53,9 +54,9 @@ export default function Collectes() {
         <div>
           {mois.map((mois, idx) => (
             <div key={idx} className='pb-4'>
-              {listCollectes.filter(collecte => collecte.mois === mois && new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)).length > 0 && <h3 className=" mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-200">{mois}</h3>}
+              {collectsList.filter(collecte => collecte.mois === mois && new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)).length > 0 && <h3 className=" mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-200">{mois}</h3>}
               <div>
-                {listCollectes.filter(collecte => collecte.mois === mois && new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)).map((props, idx) => ( 
+                {collectsList.filter(collecte => collecte.mois === mois && new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)).map((props, idx) => ( 
                   <Collecte key={idx} {...props} />
                 ))}
               </div>
