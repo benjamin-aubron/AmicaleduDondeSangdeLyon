@@ -176,5 +176,15 @@ export const collectsList = [
     heure: "15h-19h",
     statut: "Confirmée",
     results: ""
+  },
+  {
+    mois: "Décembre",
+    date: "17/12/2025",
+    type_collecte: "Collecte Mobile",
+    lieu: "Villeurbanne - CCVA",
+    heure: "9h30-14h",
+    statut: "Confirmée",
+    results: ""
   }
+  
 ]
