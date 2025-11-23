@@ -175,7 +175,7 @@ export const collectsList = [
     lieu: "Lyon 4 - Salle de la Ficelle",
     heure: "15h-19h",
     statut: "Confirmée",
-    results: ""
+    results: "150,129,100,13"
   },
   {
     mois: "Décembre",
@@ -185,6 +185,24 @@ export const collectsList = [
     heure: "9h30-14h",
     statut: "Confirmée",
     results: ""
-  }
+  },
+  {
+    mois: "Janvier",
+    date: "16/01/2026",
+    type_collecte: "Collecte Mobile",
+    lieu: "Lyon 4 - Salle de la Ficelle",
+    heure: "15h-19h",
+    statut: "Confirmée",
+    results: ""
+  },
+  {
+    mois: "Janvier",
+    date: "26/01/2026",
+    type_collecte: "Collecte Mobile",
+    lieu: "Bron - Espace Roger Pestourie",
+    heure: "15h30-19h",
+    statut: "Confirmée",
+    results: ""
+  },
   
 ]
