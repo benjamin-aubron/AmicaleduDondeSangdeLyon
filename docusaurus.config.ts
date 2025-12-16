@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
@@ -74,7 +74,7 @@ const config: Config = {
           position: 'right',
           label: 'Documentation',
         },
-        {to: '/blog', label: "Actualités", position: 'right'}, 
+        { to: '/blog', label: "Actualités", position: 'right' },
       ],
     },
     footer: {
@@ -82,7 +82,7 @@ const config: Config = {
       links: [
         {
           title: 'Liens utiles',
-          items: [  
+          items: [
             {
               html: `
                 <a href="https://www.helloasso.com/associations/amicale-des-donneurs-de-sang-benevoles-de-lyon-adsbl" 
@@ -148,7 +148,7 @@ const config: Config = {
             {
               html: `
               <div class="flex flex-col">
-                <a href="mailto:adsbl69@hotmail.com" target="_blank" rel="noopener noreferrer" class="flex items-center w-fit" >
+                <a href="mailto:amicaledudondesangdelyon@gmail.com" target="_blank" rel="noopener noreferrer" class="flex items-center w-fit" >
                   <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24"><path fill="white" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"/></svg>
                   <span style="color:white; margin-left:8px;">Email</span>
                 </a>
