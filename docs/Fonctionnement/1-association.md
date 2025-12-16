@@ -25,7 +25,9 @@ Ces ressources subviennent au règlemet des dépenses nécessaires au bon focnti
 La dissolution doit être votée par les deux tiers au moins des membres présents, réunies en Assemblée Générale Extraordinaire. Un liquidateur est nommé. L'actif réel est reversé à l'Union Départementale ou à une oeuvre similaire, conformément à la loi.
 
 ### Les responsables du bureau
-Robin DUFER : Président / Secrétaire - 06.68.30.57.22  
-Benjamin AUBRON : Trésorier - 06.69.01.28.47  
+Robin DUFER : Président - 06.68.30.57.22  
+Benjamin AUBRON : Trésorier - 06.69.01.28.47 
+Amine CHAOUKI : Secrétaire - 07.82.42.46.82
+Mélina BRYDS : Secrétaire-adjointe - 06.69.17.39.14
 
-L'adresse mail de l'association est : *adsbl69@hotmail.com*
+L'adresse mail de l'association est : *amicaledudondesangdelyon@gmail.com*

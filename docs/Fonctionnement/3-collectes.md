@@ -19,8 +19,8 @@ Les collectes mobiles sont directement gérées par notre association. Après co
 ### Fonctionnement :
 
 **Avant la collecte :**
-1. Les responsables de l'association lancent un appel à bénévoles au moins un mois avant la collecte afin de déterminer les bénévoles qui pourraient participer à la collecte. Les bénévoles peuvent s'inscrire en ligne sur le Doodle de l'association ou par email à *adsbl69@hotmail.com*.
-2. Les noms des bénévoles qui seront présents sont communiqués par email à l'EFS (à Mme Massardier) pour des questions d'assurance.
+1. Les responsables de l'association lancent un appel à bénévoles au moins un mois avant la collecte afin de déterminer les bénévoles qui pourraient participer à la collecte. Les bénévoles peuvent s'inscrire en ligne sur le Doodle de l'association ou par email à *amicaledudondesangdelyon@gmail.com*.
+2. Les noms des bénévoles qui seront présents sont communiqués par email à l'EFS pour des questions d'assurance.
 
 **Lors de la collecte :**
 1. Les bénévoles arrivent 15-20 minutes avant le début de la collecte pour se préparer et rencontrer l'équipe de l'EFS.
