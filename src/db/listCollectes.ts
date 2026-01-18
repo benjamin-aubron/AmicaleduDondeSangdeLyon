@@ -193,7 +193,7 @@ export const collectsList = [
     lieu: "Lyon 4 - Salle de la Ficelle",
     heure: "15h-19h",
     statut: "Confirmée",
-    results: ""
+    results: "130,130,113,6"
   },
   {
     mois: "Janvier",
