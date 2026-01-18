@@ -1,5 +1,5 @@
 ---
-slug: collect-villeurbanne-jun-2025
+slug: collect-villeurbanne-dec-2025
 title: Collecte à Villeurbanne - CCVA
 tags: [Collecte, Villeurbanne]
 ---
