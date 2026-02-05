@@ -6,7 +6,7 @@ export type CollecteProps = {
   type_collecte: string;
   lieu: string;
   heure: string;
-  statut: string;
+  statut: "A Confirmer" | "Confirmée";
   results?: string;
 }
 
@@ -52,17 +52,25 @@ export default function Collectes() {
           Nos prochaines collectes
         </h2>
         <div>
-          {mois.map((mois, idx) => (
-            <div key={idx} className='pb-4'>
-              {collectsList.filter(collecte => collecte.mois === mois && new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)).length > 0 && <h3 className=" mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-200">{mois}</h3>}
-              <div>
-                {collectsList.filter(collecte => collecte.mois === mois && new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)).map((props, idx) => ( 
-                  <Collecte key={idx} {...props} />
-                ))}
+          {mois.map((moisName) => {
+            const filteredCollectes = collectsList.filter(collecte =>
+              collecte.mois === moisName &&
+              new Date(`${collecte.date.split("/")[1]}/${collecte.date.split("/")[0]}/${collecte.date.split("/")[2]}`) > new Date(today.getTime() - 24 * 60 * 60 * 1000)
+            );
+
+            if (filteredCollectes.length === 0) return null;
+
+            return (
+              <div key={moisName} className='pb-4'>
+                <h3 className="mb-1 text-2xl font-semibold text-gray-900 dark:text-slate-200">{moisName}</h3>
+                <div>
+                  {filteredCollectes.map((props) => (
+                    <Collecte key={`${props.date}-${props.lieu}`} {...props} />
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
-          
+            );
+          })}
         </div>
       </div>
     </section>

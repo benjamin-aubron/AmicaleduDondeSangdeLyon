@@ -1,4 +1,6 @@
-export const collectsList = [
+import type { CollecteProps } from "../components/Collectes";
+
+export const collectsList: CollecteProps[] = [
   {
     mois: "Janvier",
     date: "12/01/2024",
@@ -202,7 +204,24 @@ export const collectsList = [
     lieu: "Bron - Espace Roger Pestourie",
     heure: "15h30-19h",
     statut: "Confirmée",
+    results: "105,100,87,10"
+  },
+  {
+    mois: "Avril",
+    date: "17/04/2026",
+    type_collecte: "Collecte Mobile",
+    lieu: "Lyon 4 - Salle de la Ficelle",
+    heure: "15h-19h",
+    statut: "A Confirmer",
     results: ""
   },
-  
+  {
+    mois: "Avril",
+    date: "29/04/2026",
+    type_collecte: "Collecte Mobile",
+    lieu: "Lyon 6 - Mairie du 6ème",
+    heure: "9h-13h et 15h-19h",
+    statut: "A Confirmer",
+    results: ""
+  },  
 ]
